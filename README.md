@@ -11,7 +11,7 @@
   This is how I perceive Women through Feminism :heart:
   
 
- ## Tools 
+ ## Technology used
   
   Visuals
   - [Hydra](https://github.com/ojack/hydra)

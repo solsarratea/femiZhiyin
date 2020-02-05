@@ -8,7 +8,7 @@
   
   The term Zhiyin (知音，literally "to know the tone") has come to describe a close and sympathetic friend; also described as soul-minded companion.
  
-  This is how I perceive Women through Feminism :heart:
+  This is how I perceive Feminism :heart:
   
 
  ## Technology used

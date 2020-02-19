@@ -1,9 +1,9 @@
 {
-  "short_name": "Elm App",
-  "name": "Create Elm App Sample",
+  "short_name": "femiZhinyi",
+  "name": "Collaboratorive artistic project",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "handshake",
       "sizes": "192x192",
       "type": "image/png"
     }

@@ -37,7 +37,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
         div [class "app"] 
-            [  h1 [class "glitch"] [ text "f e m i Z h i y i n " ] 
+            [  h1 [class "glitch"] [ text "femiZhiyin " ]
             , span [class "sub"][ text "you are not alone"]
             ]
 

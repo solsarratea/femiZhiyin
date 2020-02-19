@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "elm-format": "^0.8.2"
+  },
+  "scripts": {
+    "build": "elm-app build"
+  },
+  "devDependencies": {
+    "create-elm-app": "^4.2.1"
   }
 }

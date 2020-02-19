@@ -1,6 +1,6 @@
 # femiZhiyin
 
-Artistic project which aims to express female oppression on actual society. 
+Artistic project which aims to express oppression against patriarchy on actual society. 
   
 Still as work in progress.
 

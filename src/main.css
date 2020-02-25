@@ -16,9 +16,35 @@ html, body {
 }
 
 
+h3,p{
+    font-size: 32px;
+    justify-content:justify;
+}
+
+h2{
+    font-size: 40px;
+
+}
+
+h1{
+    font-size: 32px;
+
+}
+
+.left{
+    margin-left: 10px;
+    letter-spacing:2px;
+}
+
+
+
+
+
+
 a {
     cursor:url('../public/rainbow-p.png') 10 3,auto;
     text-decoration:none;
+    font-size: 16px;
 }
 
 .ref-container{
@@ -32,9 +58,9 @@ a {
 .access {
     color: #00FFFF;
     text-shadow: 10px 0px 2px  #DC143C;
-    font-size: 3vw;
     letter-spacing: 0.3em;
     font-weight: bold;
+    font-size:32px;
 
 }
 
@@ -43,9 +69,21 @@ a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 14vw;
-    font-family:Courier;
-    font-color:white;
+    height: 10vw;
+    letter-spacing:10px;
+    font-family: Book Antiqua;
+    font-size: 32px;
+    font-color:w;
+
+}
+
+.poem-end{
+    letter-spacing:10px;
+    font-family: Book Antiqua;
+    font-size: 32px;
+    font-color:lightgray;
+    text-align: right;
+    margin-right:30%;
 }
 
 .app{

@@ -2,7 +2,7 @@ module Main exposing (..)
 
 import Browser exposing (Document, UrlRequest(..), application)
 import Browser.Navigation exposing (Key, load, pushUrl)
-import Html exposing (Html, a, b, button, div, h1, img, li, span, text, ul)
+import Html exposing (Html, a, b, button, div, h1, img, span, text)
 import Html.Attributes exposing (class, href, src)
 import Html.Events exposing (onClick)
 import String exposing (contains)
@@ -111,7 +111,7 @@ homeView : List (Html msg)
 homeView =
     [ div [ class "app" ]
         [ h1 [ class "glitch" ] [ text "femiZhiyin " ]
-        , span [ class "sub" ] [ text "you are not alone" ]
+        , div [class "marquee"] [span [ class "sub" ] [ text "you are not alone" ]]
         ]
     , div [ class "ref-container" ]
         [ a [ class "access", href "/description" ] [ text "access" ] ]

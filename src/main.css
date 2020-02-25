@@ -17,17 +17,17 @@ html, body {
 
 
 h3,p{
-    font-size: 32px;
+    font-size: 1.3vw;
     justify-content:justify;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 2vw;
 
 }
 
 h1{
-    font-size: 32px;
+    font-size: 3vw;
 
 }
 
@@ -44,7 +44,7 @@ h1{
 a {
     cursor:url('../public/rainbow-p.png') 10 3,auto;
     text-decoration:none;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 .ref-container{
@@ -60,7 +60,7 @@ a {
     text-shadow: 10px 0px 2px  #DC143C;
     letter-spacing: 0.3em;
     font-weight: bold;
-    font-size:32px;
+    font-size:3vw;
 
 }
 
@@ -70,9 +70,9 @@ a {
     justify-content: space-around;
     align-items: center;
     height: 10vw;
-    letter-spacing:10px;
+    letter-spacing:0.4em;
     font-family: Book Antiqua;
-    font-size: 32px;
+    font-size: 1.3vw;
     font-color:w;
 
 }
@@ -80,14 +80,14 @@ a {
 .poem-end{
     letter-spacing:10px;
     font-family: Book Antiqua;
-    font-size: 32px;
+    font-size: 1.3vw;
     font-color:lightgray;
     text-align: right;
-    margin-right:30%;
+    margin-right:20vw;
 }
 
 .app{
-    padding:5%;
+    padding:5vw;
 }
 
 

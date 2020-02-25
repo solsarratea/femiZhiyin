@@ -145,7 +145,7 @@ descriptionView =
         , h3 [] [ text "Why?" ]
         , p [] [ text "Destructuring context is hard when you do not have enough support around you." ]
         , p [] [ text "Its main aim is to be a supportive meshwork for people feeling gender through their bodies." ]
-        , h2 [] [ text "WANT TO SHARE your WORK? drop at ", a [ href "mailto: mssarratea@gmail.com", class "access" ] [ text "mssarratea@gmail.com" ] ]
+        , h2 [] [ text "WANT TO SHARE your WORK? drop at ", a [ href "mailto:mssarratea@gmail.com", class "access" ] [ text "here" ] ]
         ]
     ]
 

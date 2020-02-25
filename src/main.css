@@ -9,7 +9,10 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
- cursor:url('../public/feminist.png') 40 30,auto;
+  cursor:url('../public/feminist.png') 40 30,auto;
+  background: black;
+  color: white;
+
 }
 
 
@@ -35,8 +38,22 @@ a {
 
 }
 
+.poem{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 14vw;
+    font-family:Courier;
+    font-color:white;
+}
 
-.app {
+.app{
+    padding:5%;
+}
+
+
+.initial {
   background: linear-gradient(rgba(10, 10, 10, 0.06), black), repeating-linear-gradient(0, transparent, transparent 2px, black 2px, black 5px), url("../public/women-glitch2.gif");
   background-size: cover;
   background-position: center;

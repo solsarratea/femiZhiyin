@@ -2,7 +2,7 @@ module Main exposing (..)
 
 import Browser exposing (Document, UrlRequest(..), application)
 import Browser.Navigation exposing (Key, load, pushUrl)
-import Html exposing (Html, a, b, button, div, h1, img, span, text)
+import Html exposing (Html, a, b, button, div, h1, h2, h3, i, img, p, span, text)
 import Html.Attributes exposing (class, href, src)
 import Html.Events exposing (onClick)
 import String exposing (contains)
@@ -109,18 +109,43 @@ appView (AppState st) =
 
 homeView : List (Html msg)
 homeView =
-    [ div [ class "app" ]
+    [ div [ class "initial" ]
         [ h1 [ class "glitch" ] [ text "femiZhiyin " ]
-        , div [class "marquee"] [span [ class "sub" ] [ text "you are not alone" ]]
+        , div [ class "marquee" ] [ span [ class "sub" ] [ text "we are not alone" ] ]
         ]
     , div [ class "ref-container" ]
         [ a [ class "access", href "/description" ] [ text "access" ] ]
     ]
 
 
+poem0 : Html msg
+poem0 =
+    div [ class "poem" ]
+        [ i [] [ text "\" existencial synecdoche" ]
+        , i [] [ text "to syncronize existence" ]
+        , i [] [ text "and create reCIStence \"" ]
+        ]
+
+
 descriptionView : List (Html msg)
 descriptionView =
-    [ div [] [ text "Collaborative artistic project which aims to express gender oppression on actual society." ] ]
+    [ div [ class "app" ]
+        [ h1 [ class "glitch" ] [ text "femiZhiyin" ]
+        , h2 [] [ text "Expressing gender oppression on actual society" ]
+        , h3 [] [ text "-> Collaborative artistic project for indivual art work <-" ]
+        , h3 [] [ text "-> Individual art work for collaborative artistic project <-" ]
+        , poem0
+        , h3 [] [ text "What?" ]
+        , p [] [ text "About the name:" ]
+        , text "The term Zhiyin (知音，literally \"to know the tone\") has come to describe a close and sympathetic friend; also described as soul-minded companion.\nThis is how I perceive Feminism."
+        , p [] [ text "About the whole:" ]
+        , text "Create global web platform to expose gender wisdom. Sharing pieces of work such as poems, music, visuals, arts ( or whatever you would like to )."
+        , h3 [] [ text "Why?" ]
+        , p [] [ text "Destructuring context is hard when you do not have enough support around you." ]
+        , text "Its main aim is to be a supportive meshwork for people feeling gender through their bodies."
+        , h2 [] [ text "WANT TO SHARE your WORK? drop at ", a [ href "mailto: mssarratea@gmail.com", class "access" ] [ text "mssarratea@gmail.com" ] ]
+        ]
+    ]
 
 
 

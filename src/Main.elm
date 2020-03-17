@@ -7,8 +7,7 @@ import Html.Attributes exposing (class, href, src)
 import Html.Events exposing (onClick)
 import String exposing (contains)
 import Url exposing (Url, toString)
-
-
+import Description exposing (descriptionView)
 
 ---- MODEL ----
 
@@ -115,38 +114,6 @@ homeView =
         ]
     , div [ class "ref-container" ]
         [ a [ class "access", href "/description" ] [ text "access" ] ]
-    ]
-
-
-poem0 : Html msg
-poem0 =
-    div [ class "poem" ]
-        [ i [] [ text "\" existencial synecdoche" ]
-        , i [] [ text "to syncronize existence" ]
-        , i [] [ text "and create reCIStence \"" ]
-        ]
-
-
-descriptionView : List (Html msg)
-descriptionView =
-    [ div [ class "app" ]
-        [ h1 [ class "glitch" ] [ text "femiZhiyin" ]
-        , h2 [] [ text "Expressing gender oppression on actual society" ]
-        , h3 [ class "left" ] [ text "-> Collaborative artistic project for indivual art w o r k <-" ]
-        , h3 [ class "left" ] [ text "-> Individual art work for collaborative artistic project <-" ]
-        , poem0
-        , p [ class "poem-end" ] [ text "- p0em zer0" ]
-        , h3 [] [ text "What?" ]
-        , p [] [ text "About the name:" ]
-        , p [] [ text "The term Zhiyin (知音，literally \"to know the tone\") has come to describe a close and sympathetic friend; also described as soul-minded companion. This is how I perceive Feminism." ]
-        , p [] [ text "Knowing the tone, hearing same music. " ]
-        , p [] [ text "About the whole:" ]
-        , p [] [ text "Create global web platform to expose gender wisdom. Sharing pieces of work such as poems, music, visuals, arts ( or whatever you would like to )." ]
-        , h3 [] [ text "Why?" ]
-        , p [] [ text "Destructuring context is hard when you do not have enough support around you." ]
-        , p [] [ text "Its main aim is to be a supportive meshwork for people feeling gender through their bodies." ]
-        , h2 [] [ text "WANT TO SHARE your WORK? drop at ", a [ href "mailto:mssarratea@gmail.com", class "access" ] [ text "here" ] ]
-        ]
     ]
 
 

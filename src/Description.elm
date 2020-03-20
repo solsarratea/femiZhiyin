@@ -29,8 +29,6 @@ descriptionView =
         , h3 [] [ text "About the name:" ]
         , p [] [ text "The term Zhiyin (知音，literally \"to know the tone\") has come to describe a close and sympathetic friend; also described as soul-minded companion; or \" one who truly appreciates the tune played by another\". This is an allusion to a legend about two friends named Yu Boya and Zhong Ziqi."]
         , p [] [ text "Knowing the tone, hearing same music, sharing context. This is how I perceive Feminism." ]
-        , h3 [] [ text "About the whole:" ]
-        , p [] [ text "Create global web platform to expose gender wisdom. Sharing pieces of work such as poems, music, visuals, arts ( or whatever you would like to )." ]
         , h3 [] [ text "Why?" ]
         , p [] [ text "Destructuring context is hard when you do not have enough support around you." ]
         , p [] [ text " Its main aim is to be a supportive meshwork for people feeling gender through their bodies and being able to share whatever you would like to as well as to explore how others been through the same." ]
